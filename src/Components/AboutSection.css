@@ -1,0 +1,28 @@
+.about-section {
+  background-color: #121212; /* نفس ثيم الـ Hero لضمان التناسق */
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 210, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  border-color: #00d2ff;
+}
+
+.skills-highlight {
+  background: rgba(25, 25, 46, 0.5);
+  border-left: 4px solid #00d2ff;
+}
+
+.text-primary {
+  color: #00d2ff !important;
+}
+
+i.bi-check-circle-fill {
+  font-size: 1.2rem;
+}

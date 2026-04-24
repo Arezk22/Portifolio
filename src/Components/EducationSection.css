@@ -1,0 +1,54 @@
+.education-section {
+  background-color: #121212;
+  padding: 80px 0;
+}
+
+.timeline {
+  position: relative;
+  border-left: 2px solid rgba(0, 210, 255, 0.3);
+  padding-left: 30px;
+  margin-left: 20px;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -41px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #00d2ff;
+  border: 4px solid #121212;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
+}
+
+.education-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.education-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(0, 210, 255, 0.4);
+  transform: translateX(10px);
+}
+
+.bg-dark-blue {
+  background-color: rgba(0, 210, 255, 0.05);
+}
+
+.text-primary {
+  color: #00d2ff !important;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    margin-left: 10px;
+  }
+}
