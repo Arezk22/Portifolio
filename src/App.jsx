@@ -15,7 +15,7 @@ function App() {
     <>
       <Hero />
       <About />
-      <div className="container text-center my-5 justify-content-center">
+      <div className="container text-center my-5 justify-content-center ">
         <BtnDownloadSection />
       </div>
       <SkillsSection />
